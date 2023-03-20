@@ -1,12 +1,12 @@
 # nuxt-blogs
 
-Nuxt.js写的一个简单博客：[预览](https://wp993080086.github.io/nuxt-blogs/)
+Nuxt.js写的一个简单博客，已添加github active自动部署：[预览](https://wp993080086.github.io/nuxt-blogs/)
 
 # 🔧 开发
 
-- 安装
+> 需要node.js版本 ≥ 16.18
 
-需要node.js版本 ≥ 16.18.1
+- 安装
 
 ```JavaScript
 npm install
