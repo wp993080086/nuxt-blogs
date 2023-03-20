@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{304:function(n,e,o){"use strict";o.r(e);var t={name:"handbookPage"},l=o(24),component=Object(l.a)(t,(function(){return(0,this._self._c)("div")}),[],!1,null,null,null);e.default=component.exports}}]);
