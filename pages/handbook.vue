@@ -1,5 +1,5 @@
 <template>
-	<div></div>
+	<div>前端手册</div>
 </template>
 
 <script>
