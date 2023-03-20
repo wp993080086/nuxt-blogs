@@ -1,31 +1,27 @@
-# Sample workflow for building and deploying a Nuxt site to GitHub Pages
-#
-# To get started with Nuxt see: https://nuxtjs.org/docs/get-started/installation
-#
+# 构建和部署Nuxt站点到GitHub Pages
 name: Deploy Nuxt site to Pages
 
 on:
-  # Runs on pushes targeting the default branch
+  # 在针对默认分支的推送上运行
   push:
     branches: ["master"]
 
-  # Allows you to run this workflow manually from the Actions tab
+  # 允许您从Actions选项卡手动运行此工作流
   workflow_dispatch:
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+# 设置GITHUB_TOKEN的权限以允许部署到GitHub Pages
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+# 只允许一个并发部署，跳过运行中队列和最新队列之间的运行队列。但是，不要取消正在进行的运行，因为我们希望允许这些生产部署完成
 concurrency:
   group: "pages"
   cancel-in-progress: false
 
 jobs:
-  # Build job
+  # 构建 job
   build:
     runs-on: ubuntu-latest
     steps:
@@ -71,7 +67,7 @@ jobs:
         with:
           path: ./dist
 
-  # Deployment job
+  # 部署 job
   deploy:
     environment:
       name: github-pages

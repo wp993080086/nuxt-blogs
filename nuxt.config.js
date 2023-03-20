@@ -3,12 +3,9 @@ const path = require('path')
 
 export default {
 	target: 'static',
-	router: {
-		base: '/nuxt-blogs/'
-	},
 	// 全局页眉: https://go.nuxtjs.dev/config-head
 	head: {
-		title: 'Blogs',
+		title: '前端劝退师-鹏多多的博客',
 		htmlAttrs: { lang: 'en' },
 		meta: [
 			{ charset: 'utf-8' },
@@ -18,11 +15,11 @@ export default {
 			{ name: 'keywords', content: '前端劝退师,前端导航,前端大全,鹏多多,前端开发' }
 		],
 		link: [
-			{ rel: 'icon', type: 'image/x-icon', href: '/nuxt-blogs//favicon.ico' },
-			{ rel: 'stylesheet', type: 'text/css', href: '/nuxt-blogs//styles/reset.css' },
-			{ rel: 'stylesheet', type: 'text/css', href: '/nuxt-blogs//styles/animation.css' },
-			{ rel: 'stylesheet', type: 'text/css', href: '/nuxt-blogs//styles/common.css' },
-			{ rel: 'stylesheet', type: 'text/css', href: '/nuxt-blogs//styles/theme.css' }
+			{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+			{ rel: 'stylesheet', type: 'text/css', href: '/styles/reset.css' },
+			{ rel: 'stylesheet', type: 'text/css', href: '/styles/animation.css' },
+			{ rel: 'stylesheet', type: 'text/css', href: '/styles/common.css' },
+			{ rel: 'stylesheet', type: 'text/css', href: '/styles/theme.css' }
 		]
 	},
 	// 全局CSS: https://go.nuxtjs.dev/config-css
