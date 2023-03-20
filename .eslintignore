@@ -1,0 +1,12 @@
+node_modules
+*.md
+*.scss
+*.woff
+*.ttf
+.vscode
+.nuxt
+public
+bin
+build
+config
+dist
