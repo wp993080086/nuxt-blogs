@@ -1,6 +1,6 @@
 # nuxt-blogs
 
-Nuxt.js写的一个简单博客：[预览](www.baidu.com)
+Nuxt.js写的一个简单博客：[预览](https://wp993080086.github.io/nuxt-blogs/)
 
 # 🔧 开发
 
