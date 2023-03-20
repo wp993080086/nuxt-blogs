@@ -1,5 +1,5 @@
 <template>
-	<div class="handbook_box">前端手册</div>
+	<div id="handbook_box">前端手册</div>
 </template>
 
 <script>
