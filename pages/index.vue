@@ -5,7 +5,7 @@
     </div> -->
 		<div class="video_box">
 			<video class="video_pc" controlsList="nodownload" autoplay loop muted="true">
-				<source src="~/static/images/bg_gif1.mp4" type="video/mp4" />
+				<source src="~/static/video/bg_gif1.mp4" type="video/mp4" />
 			</video>
 			<div class="shadow"></div>
 		</div>
